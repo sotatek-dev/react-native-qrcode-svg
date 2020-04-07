@@ -1,49 +1,41 @@
 {
-  "name": "react-native-qrcode-svg",
-  "version": "6.0.4",
-  "description": "A QR Code generator for React Native based on react-native-svg and javascript-qrcode.",
-  "main": "index.js",
-  "types": "index.d.ts",
-  "scripts": {
-    "prepare": "rm -rf example",
-    "test": "jest",
-    "test-update": "npm run test -- --updateSnapshot",
-    "lint-staged": "lint-staged",
-    "lint": "standard 'src/**/*.js'",
-    "2npm": "publish",
-    "check-update": "yarn upgrade-interactive"
-  },
-  "standard": {
-    "env": ["jest"],
-    "parser": "babel-eslint"
-  },
-  "pre-commit": "lint-staged",
-  "lint-staged": {
-    "*.js": "lint"
-  },
-  "jest": {
-    "testPathIgnorePatterns": ["/node_modules/", "example/"]
-  },
-  "repository": {
+  "_args": [
+    [
+      "git+https://github.com/Sotatek-HungHa/react-native-qrcode-svg.git",
+      "/Users/hieudt/Desktop/ReactNative/loyalty-mobile"
+    ]
+  ],
+  "_from": "git+https://github.com/Sotatek-HungHa/react-native-qrcode-svg.git",
+  "_id": "react-native-qrcode-svg@git+https://github.com/Sotatek-HungHa/react-native-qrcode-svg.git#3b0e51186a2ac7ff2c73dd8cbc7bba5627614a1d",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-qrcode-svg",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "git+ssh://git@github.com/awesomejerry/react-native-qrcode-svg.git"
+    "raw": "git+https://github.com/Sotatek-HungHa/react-native-qrcode-svg.git",
+    "rawSpec": "git+https://github.com/Sotatek-HungHa/react-native-qrcode-svg.git",
+    "saveSpec": "git+https://github.com/Sotatek-HungHa/react-native-qrcode-svg.git",
+    "fetchSpec": "https://github.com/Sotatek-HungHa/react-native-qrcode-svg.git",
+    "gitCommittish": null
   },
-  "keywords": ["react-native", "qrcode", "svg"],
-  "author": "awesomejerry",
-  "license": "MIT",
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/Sotatek-HungHa/react-native-qrcode-svg.git#3b0e51186a2ac7ff2c73dd8cbc7bba5627614a1d",
+  "_spec": "git+https://github.com/Sotatek-HungHa/react-native-qrcode-svg.git",
+  "_where": "/Users/hieudt/Desktop/ReactNative/loyalty-mobile",
+  "author": {
+    "name": "awesomejerry"
+  },
   "bugs": {
     "url": "https://github.com/awesomejerry/react-native-qrcode-svg/issues"
   },
-  "homepage": "https://github.com/awesomejerry/react-native-qrcode-svg#readme",
-  "peerDependencies": {
-    "react-native": ">=0.59.0",
-    "react": "*",
-    "react-native-svg": "^9.6.4"
-  },
   "dependencies": {
     "prop-types": "^15.5.10",
-    "qrcode": "1.2.0"
+    "qrcode": "^1.2.0"
   },
+  "description": "A QR Code generator for React Native based on react-native-svg and javascript-qrcode.",
   "devDependencies": {
     "babel-eslint": "^8.0.1",
     "babel-jest": "^21.2.0",
@@ -52,8 +44,47 @@
     "lint-staged": "^4.2.3",
     "pre-commit": "^1.2.2",
     "publish": "^0.6.0",
-    "react": "^16.8.0",
-    "react-test-renderer": "^16.8.0",
+    "react": "^16.0.0",
+    "react-test-renderer": "^16.0.0",
     "standard": "^10.0.3"
-  }
+  },
+  "homepage": "https://github.com/awesomejerry/react-native-qrcode-svg#readme",
+  "keywords": [
+    "react-native",
+    "qrcode",
+    "svg"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": "lint"
+  },
+  "main": "index.js",
+  "name": "react-native-qrcode-svg",
+  "peerDependencies": {
+    "react-native": ">=0.46.0",
+    "react": "*",
+    "react-native-svg": "^9.6.4"
+  },
+  "pre-commit": "lint-staged",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/awesomejerry/react-native-qrcode-svg.git"
+  },
+  "scripts": {
+    "2npm": "publish",
+    "check-update": "yarn upgrade-interactive",
+    "lint": "standard 'src/**/*.js'",
+    "lint-staged": "lint-staged",
+    "prepare": "rm -rf example",
+    "test": "jest",
+    "test-update": "npm run test -- --updateSnapshot"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ],
+    "parser": "babel-eslint"
+  },
+  "types": "index.d.ts",
+  "version": "5.2.0"
 }
